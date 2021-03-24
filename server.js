@@ -77,5 +77,5 @@ io.on('connection', (socket)=>{
 
 
 
-
+console.log(process.env.PORT || 3083);
 server.listen(process.env.PORT || 3083);
